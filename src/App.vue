@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <MobileMain></MobileMain>
+    <Main></Main>
   </div>
 </template>
 
 <script>
-import MobileMain from "./components/views/MobileMain";
+import Main from "./components/views/Main";
 
 export default {
   name: "App",
   components: {
-    MobileMain,
+    Main,
   },
 };
 </script>
