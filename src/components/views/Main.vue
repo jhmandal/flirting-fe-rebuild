@@ -2,17 +2,17 @@
   <div class="w-full box-border">
     <div class="w-full bg-flblue-light">
       <div
-        class="container mx-auto flex flex-row items-center py-4 lg:py-3 lg:w-5/6 lg:justify-between"
+        class="container mx-auto flex flex-row items-center py-4 lg:py-3 lg:w-5/6 lg:justify-between relative"
       >
         <img
-          class="flex-initial lg:hidden"
+          class="flex-initial lg:hidden absolute ml-4"
           src="../../assets/images/menu.svg"
           alt="menu"
         />
         <a href="#" class="flex-initial mx-auto lg:m-0 w-32">
           <img src="../../assets/images/logo.png" alt="logo" />
         </a>
-        <div class="flex-initial">
+        <div class="flex-initial hidden lg:block">
           <img
             class="inline-block w-1/4 mr-2"
             src="../../assets/images/flag-us.png"
