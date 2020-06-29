@@ -50,8 +50,15 @@
         </div>
       </div>
     </div>
-    <div class="container w-full px-6">
-
+    <div class="w-full mt-8 px-4 bg-white">
+      <div class="container border border-solid rounded border-flgray-normal box-border">
+        <div class="site-logo bg-flblue-light py-4">
+          <img class="w-2/3 mx-auto" src="../../assets/images/friends-with-benefits.png" alt="friends-with-benefits">
+        </div>
+        <div class="site-img border border-solid border-flgray-normal">
+          <img class="w-full" src="../../assets/images/friend-with-benefits-single.jpg" alt="friend-with-benefits-single">
+        </div>
+      </div>
     </div>
   </div>
 </template>
