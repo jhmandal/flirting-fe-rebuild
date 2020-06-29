@@ -223,7 +223,10 @@
         <ul>
           <li class="border-b border-solid border-flgray-normal box-border">
             <div class="p-4 clearfix">
-              <span class="float-right text-flblue-light font-bold text-base leading-loose tracking-tight">#1</span>
+              <span
+                class="float-right text-flblue-light font-bold text-base leading-loose tracking-tight"
+                >#1</span
+              >
               <img
                 class="w-1/3"
                 src="../../assets/images/profile-pic.png"
@@ -260,7 +263,10 @@
           </li>
           <li class="border-b border-solid border-flgray-normal box-border">
             <div class="p-4 clearfix">
-              <span class="float-right text-flblue-light font-bold text-base leading-loose tracking-tight">#2</span>
+              <span
+                class="float-right text-flblue-light font-bold text-base leading-loose tracking-tight"
+                >#2</span
+              >
               <img
                 class="w-1/3"
                 src="../../assets/images/profile-pic.png"
@@ -296,10 +302,58 @@
             </div>
           </li>
         </ul>
-        <div></div>
+        <div class="p-4">
+          <h3
+            class="text-flblue-light font-bold text-base leading-loose tracking-tight uppercase"
+          >
+            Dinos tu opinión
+          </h3>
+          <br />
+          <p
+            class="text-black text-base font-normal leading-loose tracking-tight mb-4"
+          >
+            Tu dirección de correo electrónico no serä publicada. Los campos
+            obligatorios estän marcados con *
+          </p>
+          <form action="#">
+            <textarea
+              name="comments"
+              id="comments"
+              rows="5"
+              placeholder="Tu opinión"
+              class="w-full border border-solid rounded border-flgray-normal box-border p-4 mb-4 placeholder-flgray-normal"
+            ></textarea>
+            <input
+              type="text"
+              placeholder="Nombre*"
+              class="w-full border border-solid rounded border-flgray-normal box-border px-4 py-3 mb-4 placeholder-flgray-normal"
+            />
+            <input
+              type="email"
+              placeholder="Email*"
+              class="w-full border border-solid rounded border-flgray-normal box-border px-4 py-3 mb-4 placeholder-flgray-normal"
+            />
+            <input
+              type="url"
+              placeholder="Web"
+              class="w-full border border-solid rounded border-flgray-normal box-border px-4 py-3 mb-4 placeholder-flgray-normal"
+            />
+            <button
+              type="submit"
+              class="w-full rounded bg-flblue-light text-white font-bold text-base text-center tracking-tight uppercase py-2"
+            >
+              <img
+                class="w-1/12 inline-block -mt-1"
+                src="../../assets/images/msg-cloud.png"
+                alt="msg-cloud"
+              />
+              <span class="inline-block ml-2">añadir opinión</span>
+            </button>
+          </form>
+        </div>
       </div>
     </div>
-    <div class="w-full box-border">
+    <div class="w-full box-border mt-16">
       <div class="footer grid grid-cols-2 bg-flblue-light text-center py-4">
         <a
           class="inline-block text-white text-base tracking-tight font-bold lg:text-right lg:pr-10"
