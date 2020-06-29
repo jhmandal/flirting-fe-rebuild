@@ -51,12 +51,100 @@
       </div>
     </div>
     <div class="w-full mt-8 px-4 bg-white">
-      <div class="container border border-solid rounded border-flgray-normal box-border">
+      <div
+        class="container border border-solid rounded border-flgray-normal box-border"
+      >
         <div class="site-logo bg-flblue-light py-4">
-          <img class="w-2/3 mx-auto" src="../../assets/images/friends-with-benefits.png" alt="friends-with-benefits">
+          <img
+            class="w-2/3 mx-auto"
+            src="../../assets/images/friends-with-benefits.png"
+            alt="friends-with-benefits"
+          />
         </div>
         <div class="site-img border border-solid border-flgray-normal">
-          <img class="w-full" src="../../assets/images/friend-with-benefits-single.jpg" alt="friend-with-benefits-single">
+          <img
+            class="w-full"
+            src="../../assets/images/friend-with-benefits-single.jpg"
+            alt="friend-with-benefits-single"
+          />
+        </div>
+        <div class="table-header grid grid-cols-2 bg-flblue-light text-center">
+          <div class="py-5">
+            <h3 class="text-white uppercase text-base font-bold tracking-tight">
+              rating
+            </h3>
+          </div>
+          <div class="py-5">
+            <h3 class="text-white uppercase text-base font-bold tracking-tight">
+              popularity
+            </h3>
+          </div>
+        </div>
+        <div class="table-contents">
+          <ul>
+            <li class="grid grid-cols-2">
+              <div class="flex-initial flex items-center justify-around">
+                <span
+                  class="block text-3xl font-bold tracking-tight text-flgray-dark"
+                  >8.9</span
+                >
+                <img
+                  class="flex-initial"
+                  src="../../assets/images/top-heart-icon.png"
+                  alt="top-heart-icon"
+                />
+              </div>
+              <div
+                class="flex flex-col justify-center px-2 py-3 border border-t-0 border-r-0 border-b-0 border-solid border-flgray-normal bg-white lg:px-12 lg:py-6"
+              >
+                <div
+                  class="flex items-center justify-center border border-solid border-flblue-light rounded text-center px-5 py-1 lg:p-2"
+                >
+                  <a class="inline-block lg:hidden" href="#">
+                    <img
+                      class="w-5"
+                      src="../../assets/images/topup.png"
+                      alt="topup"
+                    />
+                  </a>
+                  <div class="inline-block mx-1">
+                    <span
+                      class="text-flblue-mdark font-bold text-sm tracking-tight lg:text-lg"
+                      >+1714</span
+                    >
+                  </div>
+                  <a class="inline-block lg:hidden" href="#">
+                    <img
+                      class="w-5"
+                      src="../../assets/images/topdown.png"
+                      alt="topdown"
+                    />
+                  </a>
+                </div>
+                <div class="text-center hidden px-8 py-3 lg:p-2">
+                  <a class="lg:inline-block hidden mr-3" href="#">
+                    <img
+                      class="w-7"
+                      src="../../assets/images/topup.png"
+                      alt="topup"
+                    />
+                  </a>
+                  <a class="lg:inline-block hidden ml-3" href="#">
+                    <img
+                      class="w-7"
+                      src="../../assets/images/topdown.png"
+                      alt="topdown"
+                    />
+                  </a>
+                </div>
+                <a
+                  class="block rounded bg-florange-normal text-white text-center py-1 mt-3"
+                  href="#"
+                  >Visit web</a
+                >
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
