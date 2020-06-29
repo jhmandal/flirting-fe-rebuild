@@ -52,7 +52,7 @@
     </div>
     <div class="w-full mt-8 px-4 bg-white">
       <div
-        class="container border border-solid rounded border-flgray-normal box-border"
+        class="container border border-solid rounded border-flgray-normal box-border mb-4"
       >
         <div class="site-logo bg-flblue-light py-4">
           <img
@@ -146,6 +146,171 @@
             </li>
           </ul>
         </div>
+        <div class="desc border-t border-flgray-normal p-4">
+          <div>
+            <h3
+              class="text-flblue-light font-bold text-base leading-loose tracking-tight lg:mt-4"
+            >
+              Overview:
+            </h3>
+            <br />
+            <p
+              class="text-black text-base font-normal leading-loose tracking-tight"
+            >
+              This dating website is equipped with all of the modern options
+              that you would expect to enjoy. Whether you are looking for a
+              one-time encounter or something a bit more serious, the chances
+              are high that this portal is a good option to consider. The good
+              news is that you can access your account through a mobile phone or
+              a tablet; a massive advantage if you happen to be away from your
+              laptop.
+            </p>
+            <br />
+            <h3
+              class="text-flblue-light font-bold text-base leading-loose tracking-tight"
+            >
+              Usability:
+            </h3>
+            <br />
+            <p
+              class="text-black text-base font-normal leading-loose tracking-tight"
+            >
+              Navigation is always important for those who hope to encounter a
+              streamlined online dating platform. All options are clearly
+              displayed and it is simple to customise your profile. Adding
+              information such as contact details, images and a personal
+              description can take place in a matter of minutes. Please keep in
+              mind that these (and other) categories can also be updated from
+              time to time if required. Even if you are new to the world of
+              online dating, this website will not disappoint.
+            </p>
+            <br />
+            <h3
+              class="text-flblue-light font-bold text-base leading-loose tracking-tight"
+            >
+              Finding People:
+            </h3>
+            <br />
+            <p
+              class="text-black text-base font-normal leading-loose tracking-tight"
+            >
+              You can base your searches off of a number of unique criteria.
+              These include age, gender, location, interests and personality
+              type. Images are a great way to sort through other users until you
+              encounter someone who deserves a bit more attention. You can also
+              customise your user search in order to incorporate a wider
+              audience.
+            </p>
+            <br />
+            <a
+              class="block w-2/3 mx-auto rounded bg-florange-normal text-white text-center py-2 mt-3"
+              href="#"
+              >Visit web</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="container border border-solid rounded border-flgray-normal box-border"
+      >
+        <div
+          class="py-5 px-8 border-b border-solid border-flgray-normal box-border"
+        >
+          <h3 class="text-flblue-light font-bold text-base tracking-tight">
+            Opiniones
+          </h3>
+        </div>
+        <ul>
+          <li class="border-b border-solid border-flgray-normal box-border">
+            <div class="p-4 clearfix">
+              <span class="float-right text-flblue-light font-bold text-base leading-loose tracking-tight">#1</span>
+              <img
+                class="w-1/3"
+                src="../../assets/images/profile-pic.png"
+                alt="profile-pic"
+              />
+              <h3
+                class="text-flblue-light font-bold text-base leading-loose tracking-tight"
+              >
+                Olivia Arribas
+              </h3>
+              <br />
+              <p
+                class="text-black text-base font-normal leading-loose tracking-tight"
+              >
+                We analyze objectively and for free, the best English-speaking
+                websites to help those who want to venture into the dating
+                online world but unfortunately do not know where to start.<br />
+                Do not hesitate, follow our advice to find the best social
+                network that best suit what you’re looking for, Joining the most
+                effective way to find relationships!
+              </p>
+              <br />
+              <a
+                class="inline-block text-flblue-light font-bold text-base leading-loose tracking-tight uppercase float-right"
+                href="#"
+                ><img
+                  class="inline-block w-2/12"
+                  src="../../assets/images/blue-arrow-left.png"
+                  alt="blue-arrow-left"
+                />
+                <span class="inline-block ml-2">responder</span></a
+              >
+            </div>
+          </li>
+          <li class="border-b border-solid border-flgray-normal box-border">
+            <div class="p-4 clearfix">
+              <span class="float-right text-flblue-light font-bold text-base leading-loose tracking-tight">#2</span>
+              <img
+                class="w-1/3"
+                src="../../assets/images/profile-pic.png"
+                alt="profile-pic"
+              />
+              <h3
+                class="text-flblue-light font-bold text-base leading-loose tracking-tight"
+              >
+                Olivia Arribas
+              </h3>
+              <br />
+              <p
+                class="text-black text-base font-normal leading-loose tracking-tight"
+              >
+                We analyze objectively and for free, the best English-speaking
+                websites to help those who want to venture into the dating
+                online world but unfortunately do not know where to start.<br />
+                Do not hesitate, follow our advice to find the best social
+                network that best suit what you’re looking for, Joining the most
+                effective way to find relationships!
+              </p>
+              <br />
+              <a
+                class="inline-block text-flblue-light font-bold text-base leading-loose tracking-tight uppercase float-right"
+                href="#"
+                ><img
+                  class="inline-block w-2/12"
+                  src="../../assets/images/blue-arrow-left.png"
+                  alt="blue-arrow-left"
+                />
+                <span class="inline-block ml-2">responder</span></a
+              >
+            </div>
+          </li>
+        </ul>
+        <div></div>
+      </div>
+    </div>
+    <div class="w-full box-border">
+      <div class="footer grid grid-cols-2 bg-flblue-light text-center py-4">
+        <a
+          class="inline-block text-white text-base tracking-tight font-bold lg:text-right lg:pr-10"
+          href="#"
+          >Contact</a
+        >
+        <a
+          class="inline-block text-white text-base tracking-tight font-bold lg:text-left lg:pl-10"
+          href="#"
+          >Terms</a
+        >
       </div>
     </div>
   </div>
