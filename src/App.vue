@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <!-- <Main></Main> -->
-    <Singular></Singular>
+    <Main></Main>
+    <!-- <Singular></Singular> -->
   </div>
 </template>
 
 <script>
-// import Main from "./components/views/Main";
-import Singular from "./components/views/Singular";
+import Main from "./components/views/Main";
+// import Singular from "./components/views/Singular";
 
 export default {
   name: "App",
   components: {
-    // Main,
-    Singular
+    Main,
+    // Singular
   },
 };
 </script>

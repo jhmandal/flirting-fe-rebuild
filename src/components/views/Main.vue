@@ -50,7 +50,7 @@
         </div>
       </div>
     </div>
-    <div class="container mx-auto lg:w-5/6">
+    <div class="container mx-auto px-4 lg:w-5/6 lg:px-0">
       <div class="text-center pt-10 pb-6">
         <h2
           class="text-flblue-light uppercase text-base tracking-tighter font-bold lg:hidden"
@@ -86,19 +86,19 @@
       <div
         class="grid grid-cols-2 bg-flblue-light text-center rounded-t lg:grid-cols-5"
       >
-        <div class="px-16 py-5">
+        <div class="lg:px-16 py-5">
           <h3 class="text-white uppercase text-sm font-bold">web</h3>
         </div>
-        <div class="px-16 py-5 hidden lg:block">
+        <div class="lg:px-16 py-5 hidden lg:block">
           <h3 class="text-white uppercase text-sm font-bold">description</h3>
         </div>
-        <div class="px-16 py-5">
+        <div class="lg:px-16 py-5">
           <h3 class="text-white uppercase text-sm font-bold">popularity</h3>
         </div>
-        <div class="px-16 py-5 hidden lg:block">
+        <div class="lg:px-16 py-5 hidden lg:block">
           <h3 class="text-white uppercase text-sm font-bold">members</h3>
         </div>
-        <div class="px-16 py-5 hidden lg:block">
+        <div class="lg:px-16 py-5 hidden lg:block">
           <h3 class="text-white uppercase text-sm font-bold">rating</h3>
         </div>
       </div>
@@ -139,7 +139,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col justify-center px-2 py-3 border border-r-0 border-b-0 border-solid border-flgray-normal bg-white lg:px-12 lg:py-6"
+            class="flex flex-col justify-center px-2 py-3 border lg:border-r-0 border-b-0 border-solid border-flgray-normal bg-white lg:px-12 lg:py-6"
           >
             <div
               class="flex items-center justify-center border border-solid border-flblue-light rounded text-center px-5 py-1 lg:p-2"
@@ -272,7 +272,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col justify-center px-2 py-3 border border-r-0 border-solid border-flgray-normal bg-white lg:px-12 lg:py-6"
+            class="flex flex-col justify-center px-2 py-3 border lg:border-r-0 border-solid border-flgray-normal bg-white lg:px-12 lg:py-6"
           >
             <div
               class="flex items-center justify-center border border-solid border-flblue-light rounded text-center px-5 py-1 lg:p-2"
@@ -371,23 +371,16 @@
         </li>
         <li class="grid grid-cols-2 lg:grid-cols-5">
           <div
-            class="flex items-center justify-center border border-r-0 border-solid border-flgray-normal bg-white relative lg:px-5"
+            class="flex items-center justify-center border border-t-0 border-r-0 border-solid border-flgray-normal bg-white relative lg:px-5"
           >
             <img
               class="w-full"
               src="../../assets/images/badooenglish.png"
               alt="badooenglish"
             />
-            <div
-              class="ribbon-flag ribbon-flblue-light bg-flblue-light py-1 px-2 lg:hidden"
-            >
-              <span class="text-xs text-white uppercase tracking-tight"
-                >recomenado</span
-              >
-            </div>
           </div>
           <div
-            class="lg:flex flex-col justify-center px-2 py-3 border border-r-0 border-solid border-flgray-normal bg-white hidden"
+            class="lg:flex flex-col justify-center px-2 py-3 border border-t-0 border-r-0 border-solid border-flgray-normal bg-white hidden"
           >
             <div class="flex-initial mb-3">
               <h3 class="text-black text-lg text-left">
@@ -405,7 +398,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col justify-center px-2 py-3 border border-r-0 border-solid border-flgray-normal bg-white lg:px-12 lg:py-6"
+            class="flex flex-col justify-center px-2 py-3 border border-t-0 lg:border-r-0 border-solid border-flgray-normal bg-white lg:px-12 lg:py-6"
           >
             <div
               class="flex items-center justify-center border border-solid border-flblue-light rounded text-center px-5 py-1 lg:p-2"
@@ -459,7 +452,7 @@
             >
           </div>
           <div
-            class="lg:flex flex-col justify-center px-2 py-3 border border-r-0 border-solid border-flgray-normal bg-white hidden"
+            class="lg:flex flex-col justify-center px-2 py-3 border border-t-0 border-r-0 border-solid border-flgray-normal bg-white hidden"
           >
             <div class="flex-initial flex items-center justify-center mb-6">
               <img
@@ -482,7 +475,7 @@
             </div>
           </div>
           <div
-            class="lg:flex flex-col justify-center p-5 border border-solid border-flgray-normal bg-white hidden"
+            class="lg:flex flex-col justify-center p-5 border border-t-0 border-solid border-flgray-normal bg-white hidden"
           >
             <div class="flex-initial flex items-center justify-around mb-6">
               <span
@@ -504,23 +497,16 @@
         </li>
         <li class="grid grid-cols-2 lg:grid-cols-5">
           <div
-            class="flex items-center justify-center border border-r-0 border-solid border-flgray-normal bg-white relative lg:px-5"
+            class="flex items-center justify-center border border-t-0 border-r-0 border-solid border-flgray-normal bg-white relative lg:px-5"
           >
             <img
               class="w-full"
               src="../../assets/images/matchimage.png"
               alt="matchimage"
             />
-            <div
-              class="ribbon-flag ribbon-flblue-light bg-flblue-light py-1 px-2 lg:hidden"
-            >
-              <span class="text-xs text-white uppercase tracking-tight"
-                >recomenado</span
-              >
-            </div>
           </div>
           <div
-            class="lg:flex flex-col justify-center px-2 py-3 border border-r-0 border-solid border-flgray-normal bg-white hidden"
+            class="lg:flex flex-col justify-center px-2 py-3 border border-t-0 border-r-0 border-solid border-flgray-normal bg-white hidden"
           >
             <div class="flex-initial mb-3">
               <h3 class="text-black text-lg text-left">
@@ -538,7 +524,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col justify-center px-2 py-3 border border-r-0 border-solid border-flgray-normal bg-white lg:px-12 lg:py-6"
+            class="flex flex-col justify-center px-2 py-3 border border-t-0 lg:border-r-0 border-solid border-flgray-normal bg-white lg:px-12 lg:py-6"
           >
             <div
               class="flex items-center justify-center border border-solid border-flblue-light rounded text-center px-5 py-1 lg:p-2"
@@ -592,7 +578,7 @@
             >
           </div>
           <div
-            class="lg:flex flex-col justify-center px-2 py-3 border border-r-0 border-solid border-flgray-normal bg-white hidden"
+            class="lg:flex flex-col justify-center px-2 py-3 border border-t-0 border-r-0 border-solid border-flgray-normal bg-white hidden"
           >
             <div class="flex-initial flex items-center justify-center mb-6">
               <img
@@ -615,7 +601,7 @@
             </div>
           </div>
           <div
-            class="lg:flex flex-col justify-center p-5 border border-solid border-flgray-normal bg-white hidden"
+            class="lg:flex flex-col justify-center p-5 border border-t-0 border-solid border-flgray-normal bg-white hidden"
           >
             <div class="flex-initial flex items-center justify-around mb-6">
               <span
@@ -637,23 +623,16 @@
         </li>
         <li class="grid grid-cols-2 lg:grid-cols-5">
           <div
-            class="flex items-center justify-center border border-r-0 border-solid border-flgray-normal bg-white relative lg:px-5"
+            class="flex items-center justify-center border border-t-0 border-r-0 border-solid border-flgray-normal bg-white relative lg:px-5"
           >
             <img
               class="w-full"
               src="../../assets/images/ashleyenglish.png"
               alt="ashleyenglish"
             />
-            <div
-              class="ribbon-flag ribbon-flblue-light bg-flblue-light py-1 px-2 lg:hidden"
-            >
-              <span class="text-xs text-white uppercase tracking-tight"
-                >recomenado</span
-              >
-            </div>
           </div>
           <div
-            class="lg:flex flex-col justify-center px-2 py-3 border border-r-0 border-solid border-flgray-normal bg-white hidden"
+            class="lg:flex flex-col justify-center px-2 py-3 border border-t-0 border-r-0 border-solid border-flgray-normal bg-white hidden"
           >
             <div class="flex-initial mb-3">
               <h3 class="text-black text-lg text-left">
@@ -671,7 +650,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col justify-center px-2 py-3 border border-r-0 border-solid border-flgray-normal bg-white lg:px-12 lg:py-6"
+            class="flex flex-col justify-center px-2 py-3 border border-t-0 lg:border-r-0 border-solid border-flgray-normal bg-white lg:px-12 lg:py-6"
           >
             <div
               class="flex items-center justify-center border border-solid border-flblue-light rounded text-center px-5 py-1 lg:p-2"
@@ -725,7 +704,7 @@
             >
           </div>
           <div
-            class="lg:flex flex-col justify-center px-2 py-3 border border-r-0 border-solid border-flgray-normal bg-white hidden"
+            class="lg:flex flex-col justify-center px-2 py-3 border border-t-0 border-r-0 border-solid border-flgray-normal bg-white hidden"
           >
             <div class="flex-initial flex items-center justify-center mb-6">
               <img
@@ -748,7 +727,7 @@
             </div>
           </div>
           <div
-            class="lg:flex flex-col justify-center p-5 border border-solid border-flgray-normal bg-white hidden"
+            class="lg:flex flex-col justify-center p-5 border border-t-0 border-solid border-flgray-normal bg-white hidden"
           >
             <div class="flex-initial flex items-center justify-around mb-6">
               <span
@@ -1014,7 +993,7 @@
         </div>
       </div>
     </div>
-    <div class="w-full box-border lg:mt-16">
+    <div class="w-full box-border mt-16">
       <div class="footer grid grid-cols-2 bg-flblue-light text-center py-4">
         <a
           class="inline-block text-white text-base tracking-tight font-bold lg:text-right lg:pr-10"
