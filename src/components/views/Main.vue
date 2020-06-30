@@ -1,14 +1,14 @@
 <template>
   <div class="w-full box-border">
-    <div class="w-full bg-flblue-light">
+    <div class="w-full bg-flblue-light relative z-20">
       <div
         class="container mx-auto flex flex-row items-center py-4 lg:py-3 lg:w-5/6 lg:justify-between relative"
       >
-        <img
+        <!-- <img
           class="flex-initial lg:hidden absolute ml-4"
           src="../../assets/images/menu.svg"
           alt="menu"
-        />
+        /> -->
         <a href="#" class="flex-initial mx-auto lg:m-0 w-32">
           <img src="../../assets/images/logo.png" alt="logo" />
         </a>
@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <div class="w-full bg-flblue-dark">
+    <div class="w-full bg-flblue-dark relative z-20">
       <div class="container mx-auto text-center lg:w-5/6">
         <div
           class="flex-initial w-64 sm:w-64 md:w-1/3 lg:w-1/3 xl:w-1/4 mx-auto relative"
@@ -1007,11 +1007,66 @@
         >
       </div>
     </div>
+    <Slide
+      width="290"
+      @openMenu="handleOpenMenu"
+      @closeMenu="handleCloseMenu"
+      class="lg:hidden"
+      :class="{ bmenuactive: bmOpen }"
+      ><a id="menu1" href="#">
+        <span>Menu 1</span>
+      </a>
+      <a id="menu2" href="#">
+        <span>Menu 2</span>
+      </a>
+      <a id="menu3" href="#">
+        <span>Menu 3</span>
+      </a>
+      <a id="menu4" href="#">
+        <span>Menu 4</span>
+      </a>
+      <a id="menu5" href="#">
+        <span>Menu 5</span>
+      </a>
+      <div class="bm-menu-lang">
+        <img
+          class="inline-block w-1/4 ml-2 mr-2"
+          src="../../assets/images/flag-us.png"
+          alt="flag-us"
+        />
+        <button class="inline-block">
+          <span
+            class="inline-block text-flblue-light text-base font-bold tracking-tight uppercase"
+            >EN</span
+          ><span class="inline-block blue-arrow-down ml-1"></span>
+        </button>
+      </div>
+    </Slide>
   </div>
 </template>
 
 <script>
+import { Slide } from "vue-burger-menu";
+
 export default {
   name: "Main",
+  components: {
+    Slide,
+  },
+  data() {
+    return {
+      bmOpen: false,
+    };
+  },
+  methods: {
+    handleOpenMenu() {
+      this.bmOpen = true;
+      console.log(this.bmOpen);
+    },
+    handleCloseMenu() {
+      this.bmOpen = false;
+      console.log(this.bmOpen);
+    },
+  },
 };
 </script>
