@@ -1061,11 +1061,9 @@ export default {
   methods: {
     handleOpenMenu() {
       this.bmOpen = true;
-      console.log(this.bmOpen);
     },
     handleCloseMenu() {
       this.bmOpen = false;
-      console.log(this.bmOpen);
     },
   },
 };
